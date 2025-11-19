@@ -1,6 +1,4 @@
-clc;
-clear all;
-close all;
+MSG=input('Enter the data to be encoded')
 CONSTRAINTLENGTH=3
 CODEGENERATOR=[5,7]
 TRELLIS = poly2trellis(CONSTRAINTLENGTH,CODEGENERATOR)
